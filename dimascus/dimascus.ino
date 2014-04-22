@@ -16,11 +16,15 @@ const int dimTime = 4000;        //0-100% time for dimming
 const unsigned long wakeTime = (unsigned long) 30 * 60 * 1000;  //0-100% time for wakup light
 
 /* Some constants you should _not_ change */
-const int numOfLights = 2;                    // number of light circuits
+const int numOfLights = 6;                    // number of light circuits
 const int numOfSpecials = 3;                  // number of buttons for special features
-const int buttonPin[numOfLights] = {3, 2};   // the pins the lightswitches are connected to
-const int pwmPin[numOfLights] = {6, 5};       // the pins the ledstrips are connected to
-const int specialPin[numOfSpecials] = {13, 13, 13}; // the pins the extra switches are connected to
+const int buttonPin[numOfLights] =
+              {19, 18, 17, 16, 15, 14};   // the pins the lightswitches are connected to
+const int pwmPin[numOfLights] =
+              {3, 5, 6, 9, 10, 11};       // the pins the ledstrips are connected to
+const int specialPin[numOfSpecials] =
+              {4, 7, 8}; // the pins the extra switches are connected to
+                            // all off, partymode, wake up
 
 /* some variables you schould *realy* _not_ change */
 int readState[numOfLights];                  // used by readLights, to time keypresses
