@@ -1,0 +1,23 @@
+This file describes the mapping between the headers on the board and the software
+
+Name		Location	signal 	name	atmega pin	arduino pin
++5V/2		ls1		-		-		-
+GND1		ls2		-		-		-
+switch 1	ls3		LS6		28		A5
+switch 2	ls4		LS5		27		A4
+switch 3	ls5		LS4		26		A3
+switch 4	ls6		LS3		25		A2
+switch 5	ls7		LS2		24		A1
+switch 6	ls8		LS1		23		A0
+
++5V/2		es1		-		-		-
+all off		es2		ES2		6		D4		
+wakeup		es3		ES3		14		D8
+partymode	es4		ES1		13		D7
+
+light1		l1		LO5		5		D3
+light2		l2		LO6		11		D5
+light3		l3		LO3		12		D6
+light4		l4		LO4		15		D9
+light5		l5		LO1		16		D10
+light6		l6		LO2		17		D11
