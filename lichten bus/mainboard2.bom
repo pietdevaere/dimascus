@@ -1,0 +1,24 @@
+Partlist exported from /Users/piet/Documents/eagle/lichten bus/mainboard2.sch at 06/02/14 09:03
+
+Qty Value   Device          Parts                                                                                     
+1           10-XX           B1                                                                                        
+8           JP1E            JP1, JP2, JP3, JP4, JP5, JP6, JP7, JP8                                                    
+1           MA03-2          SV2                                                                                       
+1           MA06-1          SV1                                                                                       
+6           W237-02P        L1, L2, L3, L4, L5, L6                                                                    
+1           W237-04P        ES                                                                                        
+1           W237-08P        LS                                                                                        
+1   +24VDC  W237-02P        24VDC                                                                                     
+1   1N4004  1N4004          D1                                                                                        
+1   2p      C-EU025-030X050 C6                                                                                        
+6   10k     R-EU_0207/7     R1, R2, R3, R4, R5, R6                                                                    
+19  10k     R-EU_0207/10    R7, R8, R9, R10, R11, R12, R13, R14, R15, R16, R17, R19, R21, R23, R25, R27, R29, R31, R33
+1   16MHz   CRYSTALHC49S    Q7                                                                                        
+1   22p     C-EU025-030X050 C7                                                                                        
+3   100n    C-EU025-030X050 C3, C4, C5                                                                                
+2   100u    CPOL-EUE3.5-8   C1, C2                                                                                    
+9   220     R-EU_0207/10    R18, R20, R22, R24, R26, R28, R30, R32, R34                                               
+1   7805TV  7805TV          IC1                                                                                       
+1   MEGA8-P MEGA8-P         IC2                                                                                       
+6   P16NF06 IRF530          Q1, Q2, Q3, Q4, Q5, Q6                                                                    
+9   PC817   PC817           OK1, OK2, OK3, OK4, OK5, OK6, OK7, OK8, OK9                                               
